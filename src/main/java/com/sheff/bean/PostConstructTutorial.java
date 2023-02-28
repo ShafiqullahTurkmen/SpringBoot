@@ -9,17 +9,17 @@ import java.util.logging.Logger;
 @Controller
 public class PostConstructTutorial {
 
-    @Autowired
-    Logger LOG;
-
-//    public PostConstructTutorial() {
+//    @Autowired
+//    Logger LOG;
+//
+////    public PostConstructTutorial() {
+////        LOG.info("Log info çağrıldı");
+////    }
+//
+//    @PostConstruct
+//    public void init() {
 //        LOG.info("Log info çağrıldı");
 //    }
-
-    @PostConstruct
-    public void init() {
-        LOG.info("Log info çağrıldı");
-    }
 
 
     public static void main(String[] args) {
