@@ -1,6 +1,6 @@
-package com.sheff.controller;
+package com.sheff.tutorials.controller;
 
-import com.sheff.dto.TeacherDto;
+import com.sheff.tutorials.dto.TeacherDto;
 import jakarta.validation.Valid;
 import lombok.extern.log4j.Log4j2;
 import org.springframework.stereotype.Controller;

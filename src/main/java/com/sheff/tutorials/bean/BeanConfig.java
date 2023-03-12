@@ -1,6 +1,6 @@
-package com.sheff.bean;
+package com.sheff.tutorials.bean;
 
-import com.sheff.dto.BeanDto;
+import com.sheff.tutorials.dto.BeanDto;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Scope;

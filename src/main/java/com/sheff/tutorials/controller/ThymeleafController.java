@@ -1,6 +1,6 @@
-package com.sheff.controller;
+package com.sheff.tutorials.controller;
 
-import com.sheff.dto.ProductDto;
+import com.sheff.tutorials.dto.ProductDto;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;

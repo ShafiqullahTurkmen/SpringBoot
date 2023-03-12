@@ -1,6 +1,6 @@
-package com.sheff.controller;
+package com.sheff.tutorials.controller;
 
-import com.sheff.bean.BeanConfig;
+import com.sheff.tutorials.bean.BeanConfig;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
