@@ -1,4 +1,4 @@
-package com.sheff.entity;
+package com.sheff.data.entity;
 
 import jakarta.persistence.*;
 import lombok.Getter;

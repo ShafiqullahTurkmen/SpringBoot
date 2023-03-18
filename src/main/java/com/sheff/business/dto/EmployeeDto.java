@@ -1,4 +1,4 @@
-package com.sheff.dto;
+package com.sheff.business.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
