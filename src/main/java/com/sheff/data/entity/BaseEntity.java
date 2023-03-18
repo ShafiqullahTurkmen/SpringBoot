@@ -1,5 +1,6 @@
 package com.sheff.data.entity;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
@@ -16,6 +17,7 @@ import java.util.Date;
 @Getter
 @Setter
 @EntityListeners(AuditingEntityListener.class)
+@JsonIgnoreProperties(value = {"created_date, update_date"}, allowGetters = true)
 public class BaseEntity {
 
     @Id
